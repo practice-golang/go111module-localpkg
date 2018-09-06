@@ -1,5 +1,6 @@
 # helloworld
 
+[여기 게시물](https://enjoytools.net/xe/index.php?mid=board_nfRq49&document_srl=10948) 첨부용  
 처음 만든 [샘플](https://github.com/practice-golang/helloworld.git)에서 로컬패키지를 모듈로 사용할 때의 공부를 위해 약간 수정
 
 ## 공부
