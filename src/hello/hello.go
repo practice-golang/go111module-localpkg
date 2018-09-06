@@ -24,7 +24,7 @@ func main() {
 
 	fmt.Println(mypkg.YourName(yourName))
 
-	fmt.Println(spkg.SayGoodToSeeYou()) // 이제는 된다.
+	fmt.Println(spkg.SayGoodToSeeYou())
 
-	fmt.Println(vpkg.SayGoodbye()) // 이제는 안 된다.
+	fmt.Println(vpkg.SayGoodbye())
 }
