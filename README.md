@@ -10,4 +10,4 @@
 * go.mod에 replace로 경로 별명을 추가한다.
   * ~~~경로 지시가 까다롭(게 느껴진)다. 그냥 처음부터 require와 replace를 혼용하는게 좋을 것 같다.~~~
 * import 주석은 GOPATH 밖에서는 반드시 입력해야 한다.
- - package main에 뜨는 오류 때문에 import 주석을 오해했었는데 그게 아니라 build가 끝나야 에디터(vscode)에서 제대로 인식 되었다.
+  * package main에 뜨는 오류 때문에 import 주석을 오해했었는데 그게 아니라 build가 끝나야 에디터(vscode)에서 제대로 인식 되었다.
