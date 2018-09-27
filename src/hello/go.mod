@@ -1,4 +1,4 @@
-module example.com/me/hello
+module hello
 
 require (
 	hello/spkg v0.0.0
