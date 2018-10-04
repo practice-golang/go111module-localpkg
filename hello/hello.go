@@ -3,10 +3,9 @@ package main // import "hello"
 import (
 	"fmt"
 
-	"mypkg" // 메인 패키지 바깥에 존재하는 로컬 패키지
+	"mypkg" // A local package outside of main package
 
-	"hello/spkg" // Sub-package
-	"vpkg"       // Vendor Package : must be imported as vpkg not /hello/vendor/vpkg
+	"spkg" // Sub-package
 )
 
 func main() {
@@ -25,6 +24,4 @@ func main() {
 	fmt.Println(mypkg.YourName(yourName))
 
 	fmt.Println(spkg.SayGoodToSeeYou())
-
-	fmt.Println(vpkg.SayGoodbye())
 }
