@@ -1,4 +1,4 @@
-package mypkg
+package mypkg // import "mypkg"
 
 // MyName : return my name
 func MyName(name string) string {

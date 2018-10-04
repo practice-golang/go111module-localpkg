@@ -1,4 +1,4 @@
-package vpkg
+package vpkg // import "vpkg"
 
 // SayGoodbye : return Bye world
 func SayGoodbye() string {

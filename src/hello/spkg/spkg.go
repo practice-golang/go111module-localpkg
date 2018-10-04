@@ -1,4 +1,4 @@
-package spkg
+package spkg // import "spkg"
 
 // SayGoodToSeeYou : Package in sub dir. 이렇게는 안 된다.
 func SayGoodToSeeYou() string {
